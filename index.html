@@ -23,7 +23,7 @@
 		.comp-3d--o {animation-name:ro;-webkit-animation-name:ro; -moz-animation-name:ro;-ms-animation-name:ro; -o-animation-name:ro;animation-name:ro;}
 
 		/*turn 一圈*/
-		@keyframes ri {
+		@-webkit-keyframes ri {
 		  0%, 20% {
 		    transform: rotateY(-0.5turn);
 		    -webkit-transform: rotateY(-0.5turn);
@@ -37,7 +37,7 @@
 		    -webkit-transform: rotateX(-0.5turn);
 		  }
 		}
-		@keyframes ro {
+		@-webkit-keyframes ro {
 		  0%, 35% {
 		    transform: rotate(-0.5turn);
 		    -webkit-transform: rotate(-0.5turn);
@@ -134,7 +134,7 @@
 		  -webkit-transform: rotateX(-90deg) translateZ(2em);
 		}
 
-		@keyframes m {
+		@-webkit-keyframes m {
 		  0%, 5%, 95%, 100% {
 		    transform: none;
 		    -webkit-transform: none;
